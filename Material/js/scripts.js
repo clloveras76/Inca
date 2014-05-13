@@ -38,21 +38,6 @@ $(document).ready(function() {
 /* Cargar Menu left  Productos*/
 
 
-/* Cargar Menu left  Productos*/
-
-$(document).ready(function() {
-
-    $("#FooterContainer").load('main_footer.html');
-
-});
-
-/* Cargar Menu left  Productos*/
-
-$(document).ready(function() {
-	$("#FooterContainer").css("zIndex", -9000);
-});
-
-
 
 
 

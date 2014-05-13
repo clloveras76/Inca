@@ -46,7 +46,10 @@ font-weight:bold;
 }
 
 
-
+body{
+	    background: url('../image/bgImageSite.png') repeat scroll 0% 0% #FFF;
+}
+/*
 body {
 scrollbar-face-color: #006699;
 scrollbar-shadow-color: #DEEBF5;
@@ -56,7 +59,7 @@ scrollbar-darkshadow-color: #5F8ABD;
 scrollbar-track-color: #F5F5F5;
 scrollbar-arrow-color: #FFFFFF;
 }
-
+*/
 
 /* ===================================Estilos Generales ==============================*/
 	
@@ -222,11 +225,11 @@ margin: auto;
 	border-radius:5px;*/
 	-webkit-box-shadow:1px 1px 3px #888;
 	-moz-box-shadow:1px 1px 3px #888;
-	overflow:hidden!important;
+	/*overflow:hidden!important;*/
 }
 #MenuLeftContainer .blqC1 {
-	overflow-y:auto!important;
-	overf
+	/*overflow:hidden!important;*/
+	
 	
 }
 
@@ -234,17 +237,17 @@ margin: auto;
 #menu ul li, #menu li:last-child{border:none;}	
 #menu a{
 	display:block;
-	color:#FFF;
+	color:#006;
 	text-decoration:none;
 	font-family:'Helvetica', Arial, sans-serif;
 	font-size:13px;
 	padding:3px 5px;
-	text-shadow:1px 1px 1px #325179;
+	/*text-shadow:1px 1px 1px #ccc;*/
 }
 #menu a:hover{
 	color:#182D70;
 	-webkit-transition: color 0.2s linear;
-	background-color:#ccc;
+	background-color:#918F83;
 }
 
 #menu .btnactive{
@@ -253,12 +256,24 @@ margin: auto;
 	background-color:#ccc;
 }
 
-#menu ul a{background-color:#6594D1;}
+.bloqMn p{
+	color:#006;
+}
+
+
+#menu ul a{
+/*background-color:#6594D1;*/
+background-color:#ccc;
+}
 #menu ul a:hover{
 	background-color:#FFF;
-	color:#2961A9;
+	/*color:#2961A9;*/
+	color:#918F83;
+	/*border-top: solid 1px #000;
+	border-bottom: solid 1px #000;*/
 	text-shadow:none;
 	-webkit-transition: color, background-color 0.2s linear;
+	
 }
 #menu ul{
 	display:block;
@@ -269,7 +284,11 @@ margin: auto;
 	list-style:none;
 	overflow:hidden!important;
 }
-#menu ul{background-color:#6594D1;}
+#menu ul{
+/*background-color:#6594D1;*/
+background-color:#ccc;
+
+}
 #menu li ul {display:none;}
 
 
@@ -449,16 +468,20 @@ width: 950px;
 margin-top:5px;
 margin-left:5px;
 margin-right:5px;
-background: #eee; 
+/*background: #eee; */
+background-color: #222;
 padding-top:25px;
 padding-bottom:25px;
+color: #bbb;
 
 }
 
 .Mainfooter p{
 text-align:center;
-margin-bottom:5px;
+margin-bottom:2px;
 font-family: "Arial", Gadget, sans-serif;
 font-size: 12px;
 }
-
+.Mainfooter p span{
+color:#fff;
+}
