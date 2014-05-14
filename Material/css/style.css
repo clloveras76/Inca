@@ -61,6 +61,15 @@ scrollbar-arrow-color: #FFFFFF;
 }
 */
 
+.Home{
+margin-top:5%;
+
+}
+.productos{
+margin-top:5%;
+
+}
+
 /* ===================================Estilos Generales ==============================*/
 	
 	
@@ -90,13 +99,13 @@ color:#fff;
 
 .blqContainer .ContSup{
 height:63px;
-margin-bottom:5px;
+margin-bottom:2px;
 background-color:#918f83;
 font-size:9px;
 }
 
 .blqContainer .ContInf{
-height:25px;
+height:28px;
 background-color:#182d70;
 
 }
@@ -111,6 +120,7 @@ display:block;
 margin: auto;
 height:25px;
 width:100%;
+padding-top: 3px
 }
 .ItemMnu a:hover{
 color:#182d70;
