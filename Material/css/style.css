@@ -495,3 +495,72 @@ font-size: 12px;
 .Mainfooter p span{
 color:#fff;
 }
+
+/* ===================================Estilos Servicios ==============================*/
+
+
+/* --- */
+
+.servicios{
+margin-top:5%;
+
+}
+
+.servicios .blqC1:hover{
+opacity:1!important;
+filter:alpha(opacity=100)!important; /* For IE8 and earlier */
+
+}
+
+
+.servicios .blqNivel2{
+margin-top:5px;
+}
+.servicios .blqNivel2:hover{
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.servicios .blqC1{
+/*background-image: url('../image/lanamineral.jpg');*/
+}
+.servicios .blqC2{
+background-image: url('../image/andamios.jpg');
+width: 186px; 
+height:276px;	
+}
+.servicios .blqC3{
+background-image: url('../image/servicios1.jpg');
+width: 186px; 
+height:276px;	
+}
+.servicios .blqC4{
+background-image: url('../image/spraylanamineral.jpg');
+width: 186px; 
+height:276px;	
+}
+.servicios .blqC5{
+background-image: url('../image/camarafrig.jpg');
+width: 186px; 
+height:276px;	
+}
+
+.servicios .linkNivel2{
+padding-left:10px;
+padding-right:10px;
+padding-top:56px;
+display:block;
+height:36px!important;
+width:166px;
+/*background-color:red;*/
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 12px;
+text-align:center;
+color:#fff;
+text-decoration:none;
+margin: auto;
+}
+
+
+
+
+

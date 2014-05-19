@@ -41,6 +41,21 @@ $(document).ready(function() {
 
 
 
+/* Cargar Menu left  Servicios*/
+
+$(document).ready(function() {
+
+    $("#MenuLeftContainerSercicios").load('menu_left_servicios.html');
+
+
+});
+
+/* Cargar Menu left  Productos*/
+
+
+
+
+
 
 
 
