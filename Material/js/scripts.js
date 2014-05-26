@@ -53,6 +53,16 @@ $(document).ready(function() {
 /* Cargar Menu left  Productos*/
 
 
+/* Cargar Menu left  Clientes*/
+
+$(document).ready(function() {
+
+    $("#MenuLeftContainerClientes").load('menu_left_clientes.html');
+
+
+});
+
+/* Cargar Menu left  Clientes*/
 
 
 

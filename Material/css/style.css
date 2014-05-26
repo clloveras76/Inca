@@ -561,6 +561,68 @@ margin: auto;
 }
 
 
+/* ===================================Estilos Clientes ==============================*/
+
+
+/* --- */
+
+.clientes{
+margin-top:5%;
+
+}
+
+.clientes .blqC1:hover{
+opacity:1!important;
+filter:alpha(opacity=100)!important; /* For IE8 and earlier */
+
+}
+
+
+.clientes .blqNivel2{
+margin-top:5px;
+}
+.clientes .blqNivel2:hover{
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.clientes .blqC1{
+/*background-image: url('../image/lanamineral.jpg');*/
+}
+.clientes .blqC2{
+/*background-color:silver;*/
+width: 377px; 
+min-height:385px!important;	
+}
+.clientes .blqC3{
+/*background-color:silver;*/
+width: 377px; 
+min-height:385px!important;	
+}
+
+.clientes .linkNivel2{
+padding-left:10px;
+padding-right:10px;
+padding-top:56px;
+display:block;
+height:36px!important;
+width:166px;
+/*background-color:red;*/
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 12px;
+text-align:center;
+color:#fff;
+text-decoration:none;
+margin: auto;
+}
+
+.contTxtClientes{
+margin-top:10px;
+margin-left:10px;
+color: #006;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;
+
+}
 
 
 
