@@ -79,7 +79,7 @@ width: 960px; margin: auto; background: #fff;
 height:100%;
 padding-top:5px;
 padding-bottom:5px;
-
+margin-bottom: 30px;
 }
 
 /* ====== Estilos Menú ====== */
@@ -624,5 +624,7 @@ font-size: 12px;
 
 }
 
-
+.clientes .contCjaProd1 .blqContainer {
+height:100%; margin-bottom:10px;
+}
 
