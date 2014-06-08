@@ -648,3 +648,30 @@ text-decoration:underline;
 font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ===================================Estilos Contactos ==============================*/
+
+.contactos{
+margin-top:5%;
+}
+
+.contactos .cjaCon1{
+width: 376px;
+}
+.contactos .cjaCon2{
+width: 567px;
+	
+}
+
+.contactos .ItemMnu a{
+height: 28px;
+}
+
+#mensajeCliente{
+width:320px;
+}
+#mailCliente{
+width:320px;
+}
+#nombreCliente{
+width:320px;
+}

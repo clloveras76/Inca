@@ -3,10 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>INCA - Aislaciones</title>
-
-<link type="text/css" rel="stylesheet"  href="css/style.css">
+<link type="text/css" rel="stylesheet"  href="css/bootstrap.min.css">
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
+<link type="text/css" rel="stylesheet"  href="css/style.css">
 <style>
 #LanaLnk1{
 	color:#fff!important;
@@ -18,15 +19,15 @@ display:block;
 }
 .BtonblqMn{
 background-color:#918F83!important;
-
 }
+body{}
 
 </style>
 </head>
 
 <body>
 
-<div class="productos">
+<div class="contactos">
 
 
 	<div class="mainContainer">
@@ -36,7 +37,7 @@ background-color:#918F83!important;
 			<a href="index.html"><img alt="INCA - Aislaciones" src="image/marca.jpg" width="186" height="93"></a>
 		</div>
 		<div class="blqContainer">
-			 <div class="ContSup">
+			 <div class="ContSup" style="line-height: 1.335!important;">
 				  <p style="padding-top:2px;">Venta y Administración:</p> 
 				  <p>Florida 274, 2º - (1005) </p> 
 				  <p>Buenos Aires - Argentina</p> 
@@ -50,7 +51,7 @@ background-color:#918F83!important;
 
 		
 		<div class="blqContainer">
-			 <div class="ContSup"> 
+			 <div class="ContSup" style="line-height: 1.335!important;"> 
 				  <p style="padding-top:2px;">Fábrica:</p> 
 				  <p>Ruta 7 - Km. 70 - (6700)</p> 
 				  <p>Luján - Buenos Aires - Argentina</p>
@@ -74,7 +75,7 @@ background-color:#918F83!important;
 		
 		<div class="blqContainer">
 			<div class="ContSup ContSup2"> 
-					 <p class="ItemMnu ItemMnu2"><a href="folletos.html">Folletos</a></p>
+					 <p class="ItemMnu ItemMnu2"><a style="height:63px!important;" href="folletos.html">Folletos</a></p>
 			</div>				
 			<div class="ContInf">
 					  <p class="ItemMnu"><a href="clientes.html">Clientes</a></p>
@@ -109,26 +110,61 @@ background-color:#918F83!important;
 <!-- Contenido Secundario 1 -->								
 <div class="contCjaProd2" style="width: 958px; height:100%;">
 		<div class="cjaCon1"  style="float:left; margin-left:5px; height:100%;">
-			<h3>Lana Mineral:</h3>
+			<h3>Contáctenos</h3>
 			
-			<!-- p class="parrfCont1">Fabricamos productos de aislación con:</p -->	
-				<ul class="simpleList">
-				<li><a class="ListFolletos" href="#">Colchoneta de Lana Mineral</a></li>
-				<li><a class="ListFolletos" href="#">Medias Cañas para Aislación de Cañerías</a></li>
-				<li><a class="ListFolletos" href="#">Lana Suelta - Petralan Granulado</a></li>
-				<li><a class="ListFolletos" href="#">Paneles - Fieltros</a></li>
-				<li><a class="ListFolletos" href="#">Paneles para Altas Temperaturas</a></li>
-				<li><a class="ListFolletos" href="#">Spray para Alta Temperatura</a></li>
-				<li><a class="ListFolletos" href="#">Spray para Aislación Térmica y para Resistencia al Fuego</a></li>
-				<li><a class="ListFolletos" href="#">Panel Uso Naval</a></li>
-				<li><a class="ListFolletos" href="#">Soga de Lana Mineral</a></li>
-				<li><a class="ListFolletos" href="#">Colchoneta Desmontable</a></li>
-				<li><a class="ListFolletos" href="#">Revestimientos y Montajes</a></li>
-				</ul>
+			<p class="parrfCont1">Para contactarse con INCA puede enviarnos un E-mail a nuestra casilla de contacto inca@incaaislaciones.com.ar o completar el formulario y le responderemos a la brevedad.</p>	
+			
+			
 			
 		</div>
-	
-	
+		
+		<div class="cjaCon2" style="height:100%; float:left; margin-left:5px; margin-right:5px;">
+				
+					<form class="form-horizontal" style="background-color:#eee; padding:10px; box-shadow:1px 1px #ccc;">
+								<fieldset>
+
+								<!-- Form Name -->
+								<legend>Mensajes</legend>
+
+								<!-- Text input-->
+								<div class="form-group">
+								  <label class="col-md-4 control-label" for="nombreCliente">Nombre</label>  
+								  <div class="col-md-4">
+								  <input id="nombreCliente" name="nombreCliente" type="text" placeholder="Nombre" class="form-control input-md" required="">
+									
+								  </div>
+								</div>
+
+								<!-- Text input-->
+								<div class="form-group">
+								  <label class="col-md-4 control-label" for="mailCliente">E-Mail</label>  
+								  <div class="col-md-4">
+								  <input id="mailCliente" name="mailCliente" type="text" placeholder="E-Mail" class="form-control input-md" required="">
+									
+								  </div>
+								</div>
+
+								<!-- Textarea -->
+								<div class="form-group">
+								  <label class="col-md-4 control-label" for="mensajeCliente">Mensaje</label>
+								  <div class="col-md-4">                     
+									<textarea class="form-control" id="mensajeCliente" name="mensajeCliente">Ingrese su mensaje</textarea>
+								  </div>
+								</div>
+
+								<!-- Button -->
+								<div class="form-group">
+								  <label class="col-md-4 control-label" for="btmMensaje"></label>
+								  <div class="col-md-4">
+									<button id="btmMensaje" name="btmMensaje" class="btn btn-inverse">Enviar</button>
+								  </div>
+								</div>
+
+								</fieldset>
+								</form>
+				
+			</div>
+		
 		
 </div>	
 <!-- Contenido Secundario 1 -->			
