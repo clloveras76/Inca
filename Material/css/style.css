@@ -148,10 +148,16 @@ background-color:transparent!important;
 .Home .blqContainer .ContInf3{
 background-color:transparent!important;
 }
+.Home .ItemMnu a{
+height: 28px;
+}
+
+
 /* ====== Estilos Menú ====== */
 
 .Home .blqNivel2{
 margin-top:5px;
+
 }
 .productos .blqC1:hover{
 opacity:1!important;
@@ -215,7 +221,7 @@ padding-right:10px;
 padding-top:56px;
 display:block;
 height:36px!important;
-width:166px;
+width:170px;
 /*background-color:red;*/
 font-family: "Arial Black", Gadget, sans-serif;
 font-size: 12px;
@@ -648,6 +654,7 @@ text-decoration:underline;
 font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* ===================================Estilos Contactos ==============================*/
 
 .contactos{
@@ -674,4 +681,17 @@ width:320px;
 }
 #nombreCliente{
 width:320px;
+}
+
+/* =================================== Media Query Responsive ==============================*/
+.home_devices{display:none\9; /* ie8 hack */*display:none; /* ie7 hack */}
+
+@media screen and (min-width:761px){ 
+.home_devices{display:none;}
+.Home{display:block;}
+}
+
+@media screen and (max-width:760px){ 
+.home_devices{display:block;}
+.Home{display:none;}
 }
