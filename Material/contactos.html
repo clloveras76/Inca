@@ -119,7 +119,7 @@ background-color:#918F83!important;
 		
 		<div class="cjaCon2" style="height:100%; float:left; margin-left:5px; margin-right:5px;">
 				
-					<form class="form-horizontal" style="background-color:#eee; padding:10px; box-shadow:1px 1px #ccc;">
+					<form id="contactForm" class="form-horizontal" style="background-color:#f6f6f6; padding:10px; box-shadow:1px 1px #ccc;"  action="contact.php" name="contactForm" onsubmit="return validarForm()" method="post">
 								<fieldset>
 
 								<!-- Form Name -->
@@ -127,27 +127,27 @@ background-color:#918F83!important;
 
 								<!-- Text input-->
 								<div class="form-group">
-								  <label class="col-md-4 control-label" for="nombreCliente">Nombre</label>  
+								  <label class="col-md-4 control-label" for="name">Nombre</label>  
 								  <div class="col-md-4">
-								  <input id="nombreCliente" name="nombreCliente" type="text" placeholder="Nombre" class="form-control input-md" required="">
+								  <input id="nombreCliente" name="name" type="text" placeholder="Nombre" class="form-control input-md" required="">
 									
 								  </div>
 								</div>
 
 								<!-- Text input-->
 								<div class="form-group">
-								  <label class="col-md-4 control-label" for="mailCliente">E-Mail</label>  
+								  <label class="col-md-4 control-label" for="email">E-Mail</label>  
 								  <div class="col-md-4">
-								  <input id="mailCliente" name="mailCliente" type="text" placeholder="E-Mail" class="form-control input-md" required="">
+								  <input id="mailCliente" name="email" type="text" placeholder="E-Mail" class="form-control input-md" required="">
 									
 								  </div>
 								</div>
 
 								<!-- Textarea -->
 								<div class="form-group">
-								  <label class="col-md-4 control-label" for="mensajeCliente">Mensaje</label>
+								  <label class="col-md-4 control-label" for="message">Mensaje</label>
 								  <div class="col-md-4">                     
-									<textarea class="form-control" id="mensajeCliente" name="mensajeCliente">Ingrese su mensaje</textarea>
+									<textarea class="form-control" id="mensajeCliente" name="message">Ingrese su mensaje</textarea>
 								  </div>
 								</div>
 
@@ -155,12 +155,13 @@ background-color:#918F83!important;
 								<div class="form-group">
 								  <label class="col-md-4 control-label" for="btmMensaje"></label>
 								  <div class="col-md-4">
-									<button id="btmMensaje" name="btmMensaje" class="btn btn-inverse">Enviar</button>
+									<button id="btmMensaje" name="btmMensaje" class="btn btn-inverse" style="border: solid 1px #ccc;" type="submit" value="Enviar">Enviar</button>
 								  </div>
 								</div>
 
 								</fieldset>
 								</form>
+				
 				
 			</div>
 		
