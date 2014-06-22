@@ -50,7 +50,7 @@ $(document).ready(function() {
 
 });
 
-/* Cargar Menu left  Serivicios*/
+/* Cargar Menu left  Productos*/
 
 
 /* Cargar Menu left  Clientes*/
@@ -63,21 +63,6 @@ $(document).ready(function() {
 });
 
 /* Cargar Menu left  Clientes*/
-
-
-
-
-
-/* Cargar Menu TOP*/
-
-$(document).ready(function() {
-
-    $("#MenuTopContainer").load('menu_top.html');
-
-
-});
-
-/* Cargar Menu TOP*/
 
 
 

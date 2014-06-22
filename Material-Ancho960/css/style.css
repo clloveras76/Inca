@@ -62,19 +62,19 @@ scrollbar-arrow-color: #FFFFFF;
 */
 
 .Home{
-margin-top:3%;
+margin-top:5%;
 
 }
 .productos{
-margin-top:3%;
+margin-top:5%;
 
 }
 .folletos{
-margin-top:3%;
+margin-top:5%;
 
 }
 .quienessomos{
-margin-top:3%;
+margin-top:5%;
 
 }
 
@@ -83,7 +83,7 @@ margin-top:3%;
 	
 /* ===================================Estilos Home ==============================*/
 .mainContainer{
-width: 1200px; margin: auto; background: #fff; 
+width: 960px; margin: auto; background: #fff; 
 height:100%;
 padding-top:5px;
 padding-bottom:5px;
@@ -94,8 +94,8 @@ margin-bottom: 30px;
 
 /* ====== Estilos Menú ====== */
 .blqContainer{
-width: 234px; 
-height:117px; 
+width: 186px; 
+height:93px;
 background-color:#fff;
 float:left;
 margin-right:5px;
@@ -308,7 +308,7 @@ background-color:#ccc;
 	background-color:#2961A9;
 	margin:0;
 	padding:0;
-	width:234px;
+	width:186px;
 	list-style:none;
 	overflow:hidden!important;
 }
@@ -497,24 +497,6 @@ opacity: 0.8;
 transition-duration: 1s;
 }
 
-.cajaContStyle{
-width:234px!important;height:100%; float:left; background-color:yellow;
-}
-.margin-left5{
-margin-left:5px;
-}
-.margin-right5{
-margin-right:5px;
-}
-.width1200{
-width:1200px;
-}
-.height100porcent{
-height:100%;
-}
-
-
-
 /* ===================================Estilos Quienes somos ==============================*/
 
 
@@ -547,7 +529,7 @@ color:#fff;
 /* --- */
 
 .servicios{
-margin-top:3%;
+margin-top:5%;
 
 }
 
@@ -570,22 +552,22 @@ filter:alpha(opacity=80); /* For IE8 and earlier */
 }
 .servicios .blqC2{
 background-image: url('../image/andamios.jpg');
-width: 234px; 
+width: 186px; 
 height:276px;	
 }
 .servicios .blqC3{
 background-image: url('../image/servicios1.jpg');
-width: 234px; 
+width: 186px; 
 height:276px;	
 }
 .servicios .blqC4{
 background-image: url('../image/spraylanamineral.jpg');
-width: 234px; 
+width: 186px; 
 height:276px;	
 }
 .servicios .blqC5{
 background-image: url('../image/camarafrig.jpg');
-width: 234px; 
+width: 186px; 
 height:276px;	
 }
 
@@ -612,7 +594,7 @@ margin: auto;
 /* --- */
 
 .clientes{
-margin-top:3%;
+margin-top:5%;
 
 }
 
@@ -697,7 +679,7 @@ font-family: Arial, Helvetica, sans-serif;
 /* ===================================Estilos Contactos ==============================*/
 
 .contactos{
-margin-top:3%;
+margin-top:5%;
 }
 
 .contactos .cjaCon1{
