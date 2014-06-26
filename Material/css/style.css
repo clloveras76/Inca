@@ -108,14 +108,14 @@ color:#fff;
 }
 
 .blqContainer .ContSup{
-height:63px;
+height: 79px;
 margin-bottom:2px;
 background-color:#918f83;
 font-size:9px;
 }
 
 .blqContainer .ContInf{
-height:28px;
+height:36px;
 background-color:#182d70;
 
 }
@@ -128,15 +128,15 @@ color:#fff;
 text-decoration:none;
 display:block;
 margin: auto;
-height:28px;
+height:36px;
 width:100%;
-padding-top: 3px;
+padding-top: 7px;
 /*-webkit-margin-top:3px;*/
 }
 .ItemMnu a:hover{
 color:#182d70;
 background-color:#ccc;
-height:28px;
+height:36px;
 }
 .ContSup p{
 margin-left:4px;

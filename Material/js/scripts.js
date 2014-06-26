@@ -1,4 +1,21 @@
 
+
+/* Cargar Menu TOP*/
+
+$(document).ready(function() {
+
+    $("#MenuTopContainer").load('menu_top.html');
+
+
+});
+
+/* Cargar Menu TOP*/
+
+
+
+
+
+
 /*
 
 $(document).ready(function(){  
@@ -63,21 +80,6 @@ $(document).ready(function() {
 });
 
 /* Cargar Menu left  Clientes*/
-
-
-
-
-
-/* Cargar Menu TOP*/
-
-$(document).ready(function() {
-
-    $("#MenuTopContainer").load('menu_top.html');
-
-
-});
-
-/* Cargar Menu TOP*/
 
 
 
