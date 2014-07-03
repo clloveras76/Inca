@@ -84,6 +84,20 @@ $(document).ready(function() {
 
 
 
+/* Cargar Footer*/
+
+$(document).ready(function() {
+
+    $("#FooterContainer").load('main_footer.html');
+
+
+});
+
+/* Cargar Footer*/
+
+
+
+
 
 
 

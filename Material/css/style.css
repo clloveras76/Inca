@@ -62,20 +62,24 @@ scrollbar-arrow-color: #FFFFFF;
 */
 
 .Home{
-margin-top:3%;
+margin-top:1%;
 
 }
 .productos{
-margin-top:3%;
+margin-top:1%;
 
 }
 .folletos{
-margin-top:3%;
+margin-top:1%;
 
 }
 .quienessomos{
-margin-top:3%;
+margin-top:1%;
 
+}
+
+.width234{
+width: 234px!important;
 }
 
 /* ===================================Estilos Generales ==============================*/
@@ -145,9 +149,9 @@ margin-left:4px;
 margin-left:0px!important;
 }
 .ItemMnu2 a{
-height:43px!important;
+height:43px!important; 
 width:100%;
-padding-top:20px;
+padding-top:31px;
 }
 .linkNivel2:hover{
 color:#ccc!important;
@@ -161,7 +165,7 @@ background-color:transparent!important;
 background-color:transparent!important;
 }
 .Home .ItemMnu a{
-height: 28px;
+height: 36px;
 }
 
 
@@ -232,8 +236,8 @@ padding-left:10px;
 padding-right:10px;
 padding-top:56px;
 display:block;
-height:36px!important;
-width:170px;
+height: 117px !important;
+width:234px;
 /*background-color:red;*/
 font-family: "Arial Black", Gadget, sans-serif;
 font-size: 12px;
@@ -390,8 +394,8 @@ padding-left:10px;
 padding-right:10px;
 padding-top:56px;
 display:block;
-height:36px!important;
-width:166px;
+height: 117px !important;
+width:234px;
 /*background-color:red;*/
 font-family: "Arial Black", Gadget, sans-serif;
 font-size: 12px;
@@ -407,12 +411,14 @@ margin: auto;
 }
 
 .contCjaProd2{
-width:759px; height: 387px; float:left; margin-top:5px;
+ height:373px; float:left; margin-top:5px;
 
 }
 
 .contCjaProd2 .cjaCon1{
-width:186px;height:387px;float:left;
+width: 234px;
+height: 373px;
+float:left;
 }
 .contCjaProd2 h3{
 color: #006;
@@ -447,15 +453,30 @@ font-family: Arial,Helvetica,sans-serif;
 .simpleList li{
 margin-bottom:10px;
 }
+
+.contImgRightProd{
+background-color: blue;width: 473px;height:373px;float:left;
+}
+
+.imgRightProduct{
+
+width: 473px;
+height: 373px;
+/*width:100%;*/
+
+}
+
+
 /* ===================================Estilos Productos ==============================*/
 
 
 /* ===================================Estilos Quienes somos ==============================*/
 .qsomos1{
 display:block;
-width:186px;
-height:276px;
+width:234px;
+height:373px;
 background-image: url('../image/quienes_somos1.jpg');
+background-repeat:repeat-y;
 }
 .qsomos1:hover{
 background-image: url('../image/quienes_somos1_hover.jpg');
@@ -468,8 +489,8 @@ transition-duration: 1s;
 }
 .qsomos2{
 display:block;
-width:186px;
-height:276px;
+width:234px;
+height:373px;
 background-image: url('../image/quienes_somos2.jpg');
 }
 .qsomos2:hover{
@@ -483,8 +504,8 @@ transition-duration: 1s;
 }
 .qsomos3{
 display:block;
-width:186px;
-height:276px;
+width:234px;
+height:373px;
 background-image: url('../image/quienes_somos3.jpg');
 }
 .qsomos3:hover{
@@ -498,7 +519,7 @@ transition-duration: 1s;
 }
 
 .cajaContStyle{
-width:234px!important;height:100%; float:left; background-color:yellow;
+width:234px!important;height:100%; float:left;
 }
 .margin-left5{
 margin-left:5px;
@@ -519,16 +540,21 @@ height:100%;
 
 
 .Mainfooter{
-width: 950px; 
+width: 1190px;
 margin-top:5px;
 margin-left:5px;
 margin-right:5px;
-/*background: #eee; */
-background-color: #222;
-padding-top:25px;
-padding-bottom:25px;
-color: #bbb;
+/*background: #918F83;*/
+background-color: #182D70;
+padding-top:20px;
+padding-bottom:20px;
+/*color: #bbb;*/
+color: #fff;
 
+/*
+width: 953px;
+margin-left: 242px;
+*/
 }
 
 .Mainfooter p{
@@ -547,7 +573,7 @@ color:#fff;
 /* --- */
 
 .servicios{
-margin-top:3%;
+margin-top:1%;
 
 }
 
@@ -571,22 +597,22 @@ filter:alpha(opacity=80); /* For IE8 and earlier */
 .servicios .blqC2{
 background-image: url('../image/andamios.jpg');
 width: 234px; 
-height:276px;	
+height:373px;	
 }
 .servicios .blqC3{
 background-image: url('../image/servicios1.jpg');
 width: 234px; 
-height:276px;	
+height:373px;	
 }
 .servicios .blqC4{
 background-image: url('../image/spraylanamineral.jpg');
 width: 234px; 
-height:276px;	
+height:373px;	
 }
 .servicios .blqC5{
 background-image: url('../image/camarafrig.jpg');
 width: 234px; 
-height:276px;	
+height:373px;		
 }
 
 .servicios .linkNivel2{
@@ -595,7 +621,7 @@ padding-right:10px;
 padding-top:56px;
 display:block;
 height:36px!important;
-width:166px;
+width: 233px;
 /*background-color:red;*/
 font-family: "Arial Black", Gadget, sans-serif;
 font-size: 12px;
@@ -612,7 +638,7 @@ margin: auto;
 /* --- */
 
 .clientes{
-margin-top:3%;
+margin-top:1%;
 
 }
 
@@ -635,13 +661,17 @@ filter:alpha(opacity=80); /* For IE8 and earlier */
 }
 .clientes .blqC2{
 /*background-color:silver;*/
-width: 377px; 
-min-height:385px!important;	
+width: 473px; 
+min-height:373px!important;	
+margin-bottom:0px!important;
+padding-bottom:5px!important;
 }
 .clientes .blqC3{
 /*background-color:silver;*/
-width: 377px; 
-min-height:385px!important;	
+width: 473px; 
+min-height:373px!important;	
+margin-bottom:0px!important;
+padding-bottom:5px!important;
 }
 
 .clientes .linkNivel2{
@@ -697,11 +727,11 @@ font-family: Arial, Helvetica, sans-serif;
 /* ===================================Estilos Contactos ==============================*/
 
 .contactos{
-margin-top:3%;
+margin-top:1%;
 }
 
 .contactos .cjaCon1{
-width: 376px;
+width: 617px;
 }
 .contactos .cjaCon2{
 width: 567px;
@@ -709,7 +739,7 @@ width: 567px;
 }
 
 .contactos .ItemMnu a{
-height: 28px;
+height:36px;;
 }
 
 #mensajeCliente{
