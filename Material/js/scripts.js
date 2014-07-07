@@ -97,7 +97,51 @@ $(document).ready(function() {
 
 
 
+	
+/* Efecto transition Links*/
+
+$(document).ready(function() {
+ $(".BlockContainerFade").css("display", "none");
+    $(".BlockContainerFade").fadeIn(800);
+  
+ $("a.transicion").click(function(event){
+  event.preventDefault();
+  linkLocation = this.href;
+  $(".BlockContainerFade").fadeOut(11000, redirectPage);   });
+   function redirectPage() {
+  window.location = linkLocation;
+ }   
+});
 
 
+$(document).ready(function() {
+ $(".BlockContainerFade2").css("display", "none");
+    $(".BlockContainerFade2").fadeIn(1200);
+  
+ $("a.transicion").click(function(event){
+  event.preventDefault();
+  linkLocation = this.href;
+  $(".BlockContainerFade2").fadeOut(11000, redirectPage);   });
+   function redirectPage() {
+  window.location = linkLocation;
+ }   
+});
+
+$(document).ready(function() {
+ $(".BlockContainerFade3").css("display", "none");
+    $(".BlockContainerFade3").fadeIn(1700);
+  
+ $("a.transicion").click(function(event){
+  event.preventDefault();
+  linkLocation = this.href;
+  $(".BlockContainerFade3").fadeOut(11000, redirectPage);   });
+   function redirectPage() {
+  window.location = linkLocation;
+ }   
+});
+
+
+
+/* Efecto transition Links*/
 
 

@@ -141,6 +141,10 @@ padding-top: 7px;
 color:#182d70;
 background-color:#ccc;
 height:36px;
+-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 .ContSup p{
 margin-left:4px;
@@ -278,8 +282,11 @@ margin: auto;
 }
 #menu a:hover{
 	color:#182D70;
-	-webkit-transition: color 0.2s linear;
 	background-color:#918F83;
+	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 #menu .btnactive{
@@ -304,7 +311,10 @@ background-color:#ccc;
 	/*border-top: solid 1px #000;
 	border-bottom: solid 1px #000;*/
 	text-shadow:none;
-	-webkit-transition: color, background-color 0.2s linear;
+	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 	
 }
 #menu ul{
@@ -455,7 +465,7 @@ margin-bottom:10px;
 }
 
 .contImgRightProd{
-background-color: blue;width: 473px;height:373px;float:left;
+width: 473px;height:373px;float:left;
 }
 
 .imgRightProduct{
@@ -539,17 +549,22 @@ height:100%;
 /* ===================================Estilos Quienes somos ==============================*/
 
 
+
+/* ===================================Estilos Footer ==============================*/
+
+
 .Mainfooter{
 width: 1190px;
 margin-top:5px;
 margin-left:5px;
 margin-right:5px;
 /*background: #918F83;*/
-background-color: #182D70;
+/*background-color: #182D70;*/
+background-color:#fff;
 padding-top:20px;
 padding-bottom:20px;
 /*color: #bbb;*/
-color: #fff;
+color: #918f83;
 
 /*
 width: 953px;
@@ -564,7 +579,8 @@ font-family: "Arial", Gadget, sans-serif;
 font-size: 12px;
 }
 .Mainfooter p span{
-color:#fff;
+/*color:#fff;*/
+color: #918f83;
 }
 
 /* ===================================Estilos Servicios ==============================*/
