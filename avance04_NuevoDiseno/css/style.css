@@ -33,6 +33,21 @@
 .clearFloat{
 clear: both;
 }
+.floatLeft{
+float: left!important;
+}
+.floatRight{
+float: right!important;
+}
+.ColorBlancotxt{
+color:#fff!important;
+
+}
+.lineheight1{
+line-height:1!important;
+}
+
+
 body{
 font-family: Arial, Helvetica, sans-serif;
 
@@ -81,6 +96,14 @@ margin-top:1%;
 
 .width234{
 width: 234px!important;
+}
+
+.width473{
+width: 473px!important;
+}
+
+.width956{
+width: 956px!important;
 }
 
 .blq01HomeNew li a{
@@ -563,6 +586,9 @@ margin-left:5px;
 .margin-left11{
 margin-left:11px!important;
 }
+.margin-left10{
+margin-left:10px!important;
+}
 
 .margin-left15{
 margin-left:15px!important;
@@ -613,6 +639,11 @@ padding-bottom:5px;
 .paddingBottom2{
 padding-bottom:2px;
 }
+.paddingTop10{
+padding-top:10px!important;
+}
+
+
 .width1200{
 width:1200px;
 }
@@ -625,6 +656,10 @@ width:186px!important;
 .width234{
 width:234px!important;
 }
+.width337{
+width:337px!important;
+}
+
 .height117{
 height:117px!important;
 }
@@ -919,6 +954,20 @@ height:33px
 .height35{
 height:35px
 }
+.height379{
+height:379px!important;
+}
+
+
+.height417{
+height:417px!important;
+}
+
+
+.height590{
+height:590px;
+}
+
 
 .blq01HomeNew{
 background-image: url('../image/bg_HomeBlq01_lanaMineral.jpg');
@@ -970,6 +1019,13 @@ padding-top: 5px;
 margin-left:24px;
 }
 
+.listItemResaltadoHome{
+list-style-type:none; 
+background-color: rgba(24, 45, 112, 0.7); 
+padding-left:15px; 
+margin-left: -24px;
+}
+
 
 /* Estilos mantener menu desplegado */
 
@@ -1011,7 +1067,7 @@ display:block!important;
 
 	width: 951px;
 	margin-top:3px;
-	height: 419px;
+	height: 412px;
 }	
 .sec_contactarnos .blq01HomeNew {
     background-image: none!important;
