@@ -1,4 +1,5 @@
 
+
  	
 
 /* #Reset & Basics
@@ -80,6 +81,10 @@ margin-top:1%;
 
 .width234{
 width: 234px!important;
+}
+
+.blq01HomeNew li a{
+color:#fff;
 }
 
 /* ===================================Estilos Generales ==============================*/
@@ -294,7 +299,7 @@ margin: auto;
 	text-decoration:none;
 	font-family:'Helvetica', Arial, sans-serif;
 	font-size:14px;
-	padding:3px 5px;
+	padding:3px 0px 0px 0px;
 	/*text-shadow:1px 1px 1px #ccc;*/
 }
 #menu a:hover{
@@ -469,6 +474,10 @@ margin-left: 15px;
 margin-top:10px;
 }
 
+.listsinbullet{
+ list-style: none!important;
+}
+
 
 .contTxtClientes .simpleList h3 {
 font-size: 13px;
@@ -551,6 +560,13 @@ width:234px!important;height:100%; float:left;
 .margin-left5{
 margin-left:5px;
 }
+.margin-left11{
+margin-left:11px!important;
+}
+
+.margin-left15{
+margin-left:15px!important;
+}
 .margin-right5{
 margin-right:5px;
 }
@@ -560,6 +576,9 @@ margin:0px!important;
 .sinMarginRight{
 margin-right:0px!important;
 }
+.sinMarginLeft{
+margin-left:0px!important;
+}
 .sinMarginTop{
 margin-top:0px!important;
 }
@@ -568,6 +587,10 @@ margin-top:0px!important;
 
 .sinPadding{
 padding:0px!important;
+}
+
+.sinPaddingTop{
+padding-top:0px!important;
 }
 .marginBottom5{
 margin-bottom:5px;
@@ -643,6 +666,8 @@ font-size: 12px;
 /*color:#fff;*/
 color: #918f83;
 }
+
+
 
 /* ===================================Estilos Servicios ==============================*/
 
@@ -873,6 +898,9 @@ width:320px;
 .bgColorBlack{
 background-color: rgba(0,0,0,0.6);
 }
+.bgColorBrown{
+background-color: rgba(87,78,49,0.8);
+}
 .bgColorBlueTop{
 background-color: rgba(24,45,112,0.7);
 }
@@ -941,3 +969,58 @@ list-style: disc;
 padding-top: 5px;
 margin-left:24px;
 }
+
+
+/* Estilos mantener menu desplegado */
+
+.bloqMn{
+display:block!important;
+}
+
+
+
+/* Secciones principales */
+.sec_aislantes_termicos .blq01HomeNew {
+    background-image: none!important;
+}	
+
+.sec_aislantes_termicos {
+  background-image: url('../image/prod_aislantes_termicos.jpg');
+	width: 951px;
+	margin-top:3px;
+}	
+.sec_montajes {
+  background-image: url('../image/serv_montajes.jpg');
+	width: 951px;
+	margin-top:3px;
+}	
+
+.sec_montajes .blq01HomeNew {
+    background-image: none!important;
+}	
+
+.sec_andamios {
+  background-image: url('../image/andamios_New.jpg');
+	width: 951px;
+	margin-top:3px;
+}	
+.sec_andamios .blq01HomeNew {
+    background-image: none!important;
+}	
+.sec_contactarnos {
+
+	width: 951px;
+	margin-top:3px;
+	height: 419px;
+}	
+.sec_contactarnos .blq01HomeNew {
+    background-image: none!important;
+}	
+
+
+
+
+
+
+
+
