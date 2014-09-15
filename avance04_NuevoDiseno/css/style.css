@@ -1019,8 +1019,19 @@ display:block!important;
 
 
 
+/* Productos aislantes términos  */
 
-
+.sec_prod_aislantes_termicos {
+	background-color:#fff!important;
+	width: 951px;
+	margin-top:3px;
+	color:#000!important;
+}	
+.sec_prod_aislantes_termicos .blq01HomeNew {
+    background-image: none!important;
+	color:#000!important;
+	font-size:12px;
+}	
 
 
 
