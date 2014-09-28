@@ -8,7 +8,7 @@
 		margin: 0;
 		padding: 0;
 		border: 0;
-		color:000;
+		/*color:000;*/
 
 		vertical-align: baseline; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -205,11 +205,12 @@ opacity:1!important;
 filter:alpha(opacity=100)!important; /* For IE8 and earlier */
 
 }
-
+/*
 .blqNivel2:hover{
 opacity:0.8;
-filter:alpha(opacity=80); /* For IE8 and earlier */
-}
+filter:alpha(opacity=80); 
+} 
+*/
 .Home .blqC1{
 background-image: url('../image/lanamineral.jpg');
 }
@@ -328,7 +329,7 @@ margin: auto;
 background-color:#516484;
 }
 #menu ul a:hover{
-	background-color:#FFF;
+	background-color:#ccc;
 	/*color:#2961A9;*/
 	color:#918F83;
 	/*border-top: solid 1px #000;
