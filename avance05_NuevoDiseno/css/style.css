@@ -321,6 +321,9 @@ margin: auto;
 	color:#006;
 }
 
+.color006{
+color: #006!important;
+}
 
 #menu ul a{
 /*background-color:#6594D1;*/
@@ -1159,4 +1162,105 @@ height:417px!important;
   /*background-image: url('../image/serv_montajes.jpg');
   background-image: url('../image/andamios_New.jpg');
   background-image: url('../image/prod_aislantes_termicos.jpg');*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================Estilos Quienes somos new ==============================*/
+
+
+/* --- */
+
+.qSomosnew{
+margin-top:1%;
+
+}
+
+.qSomosnew .blqC1:hover{
+opacity:1!important;
+filter:alpha(opacity=100)!important; /* For IE8 and earlier */
+
+}
+
+
+.qSomosnew .blqNivel2{
+margin-top:5px;
+}
+.qSomosnew .blqNivel2:hover{
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.qSomosnew .blqC1{
+/*background-image: url('../image/lanamineral.jpg');*/
+}
+.qSomosnew .blqC2{
+/*background-color:silver;*/
+width: 473px; 
+min-height:373px!important;	
+margin-bottom:0px!important;
+padding-bottom:5px!important;
+}
+.qSomosnew .blqC3{
+/*background-color:silver;*/
+width: 473px; 
+min-height:373px!important;	
+margin-bottom:0px!important;
+padding-bottom:5px!important;
+}
+
+.qSomosnew .linkNivel2{
+padding-left:10px;
+padding-right:10px;
+padding-top:56px;
+display:block;
+height:36px!important;
+width:166px;
+/*background-color:red;*/
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 12px;
+text-align:center;
+color:#fff;
+text-decoration:none;
+margin: auto;
+}
+
+
+.qSomosnew .contCjaProd1 .blqContainer {
+height:100%;
+}
+
+
+
+.qSomosnew .blqContainer{
+    color: #006;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+
+
 }
